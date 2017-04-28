@@ -7,7 +7,7 @@ class Weather < Formula
 
   depends_on "curl"
 
-  bottle :uneeded
+  bottle :unneeded
 
   def install
     bin.install "weather"
